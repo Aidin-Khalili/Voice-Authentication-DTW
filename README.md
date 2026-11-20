@@ -12,6 +12,15 @@ A speaker-authentication system (Multimedia course, B.Sc. in Computer Engineerin
 
 Requires MATLAB with the [VOICEBOX](http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/voicebox.html) toolbox. Put two `.wav` recordings next to the scripts and run `Voice_part_matlab.m`.
 
+## Files
+
+| File | Role |
+|---|---|
+| `Voice_part_matlab.m` | Main script: compares two recordings |
+| `detectVoiced.m` | Voice activity detection |
+| `featuresExtract.m` | Feature extraction |
+| `different_speech.m` | Test with different speakers |
+
 ## License
 
 Released under the [MIT License](LICENSE): free to use, modify and share with attribution.
